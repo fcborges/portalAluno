@@ -1,0 +1,78 @@
+body {
+    background: url(background.jpg);
+}
+header {
+  text-align: justify;
+}
+#titulo h1 {
+  font-family: Muli, sans-serif;
+  margin-top: 0.5ex;
+  font-size: 50pt;
+  margin-bottom: 0;
+  color:  white;
+}
+h2 {
+  color: white;
+   font-family: Muli, sans-serif;
+  font-size: 20pt;
+}
+#titulo p {
+  margin-top: 0;
+  font-size: 12pt;
+  color: black;
+}
+#sinopse p {
+  line-height: 1.3;
+  font-family: Muli, sans-serif;
+  font-size: 12pt;
+  text-align: justify;
+  color: black;
+  background: #FFC125;
+}
+#fotos {
+  padding-left: 0;
+  text-align: left;
+}
+#fotos li {
+  display: inline-block;
+  padding-right: 1.89em;
+}
+#trailer {
+  width: 100%;
+  max-width: 560px;
+}
+
+p {
+     font-family: Muli, sans-serif;
+    font-size: 10pt;
+}
+#dados {
+       font-family: Muli, sans-serif;
+      font-size: 12pt;
+      color: black;
+  }
+
+#dados > dt {
+  float: left;
+  width: em;
+  text-align: right;
+  color: darkred;
+  }
+#dados > dd {
+  margin: 0 0 0 4em;
+  padding: 0 0 0.5em 0;
+}
+#elenco {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+blockquote {
+    font-size: 12pt;
+    font-family: Muli, sans-serif;
+    color: white;
+    text-align: center
+}
+:lang(en) {
+  font-style: italic;
+}
